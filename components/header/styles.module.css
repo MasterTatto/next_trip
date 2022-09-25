@@ -1,0 +1,47 @@
+.header_box {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .6s all ease;
+    z-index: 10;
+}
+
+.h3 {
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    max-width: 150px;
+    width: 100%;
+}
+
+.last {
+    max-width: 150px;
+    width: 100%;
+}
+
+.middle {
+    max-width: 300px;
+    width: 100%;
+}
+
+.middle input {
+    outline: none;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #cecece;
+    height: 35px;
+    padding: 0 20px;
+    transition: .6s all;
+}

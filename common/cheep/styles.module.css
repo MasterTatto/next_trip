@@ -1,0 +1,22 @@
+.cheep{
+    border: 2px solid #D02800;
+    padding: 20px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.75);
+    transition: .3s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #fc5d39;
+}
+
+.cheep:hover{
+    background: #fff;
+    color: #D02800;
+}
